@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="EXE_MEM">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-10-21T8:48:39</timestamp>
+    <attr value="EXE_MEM" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-672" name="clk" />
+    <pin polarity="Input" x="0" y="-608" name="rst" />
+    <pin polarity="Input" x="0" y="-544" name="WriteRegIn" />
+    <pin polarity="Input" x="0" y="-480" name="MemToRegIn" />
+    <pin polarity="Input" x="0" y="-416" name="writeMemIn" />
+    <pin polarity="Input" x="0" y="-352" name="BranchIn" />
+    <pin polarity="Input" x="0" y="-288" name="zeroIn" />
+    <pin polarity="Input" x="0" y="-224" name="nextAddressIn(31:0)" />
+    <pin polarity="Input" x="0" y="-160" name="ALUResultIn(31:0)" />
+    <pin polarity="Input" x="0" y="-96" name="R2OutputIn(31:0)" />
+    <pin polarity="Input" x="0" y="-32" name="registerIn(4:0)" />
+    <pin polarity="Output" x="560" y="-672" name="WriteRegOut" />
+    <pin polarity="Output" x="560" y="-592" name="MemToRegOut" />
+    <pin polarity="Output" x="560" y="-512" name="writeMemOut" />
+    <pin polarity="Output" x="560" y="-432" name="BranchOut" />
+    <pin polarity="Output" x="560" y="-352" name="zeroOut" />
+    <pin polarity="Output" x="560" y="-272" name="nextAddressOut(31:0)" />
+    <pin polarity="Output" x="560" y="-192" name="ALUResultOut(31:0)" />
+    <pin polarity="Output" x="560" y="-112" name="R2OutputOut(31:0)" />
+    <pin polarity="Output" x="560" y="-32" name="registerOut(4:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="280" y="-712" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-672" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin rst" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin WriteRegIn" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin MemToRegIn" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin writeMemIn" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin BranchIn" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin zeroIn" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin nextAddressIn(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin ALUResultIn(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin R2OutputIn(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin registerIn(4:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-672" type="pin WriteRegOut" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-592" type="pin MemToRegOut" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-512" type="pin writeMemOut" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-432" type="pin BranchOut" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-352" type="pin zeroOut" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-272" type="pin nextAddressOut(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-192" type="pin ALUResultOut(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-112" type="pin R2OutputOut(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-32" type="pin registerOut(4:0)" />
+        <rect width="432" x="64" y="-704" height="704" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <rect width="64" x="0" y="-236" height="24" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <rect width="64" x="0" y="-172" height="24" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="560" y1="-672" y2="-672" x1="496" />
+        <line x2="560" y1="-592" y2="-592" x1="496" />
+        <line x2="560" y1="-512" y2="-512" x1="496" />
+        <line x2="560" y1="-432" y2="-432" x1="496" />
+        <line x2="560" y1="-352" y2="-352" x1="496" />
+        <rect width="64" x="496" y="-284" height="24" />
+        <line x2="560" y1="-272" y2="-272" x1="496" />
+        <rect width="64" x="496" y="-204" height="24" />
+        <line x2="560" y1="-192" y2="-192" x1="496" />
+        <rect width="64" x="496" y="-124" height="24" />
+        <line x2="560" y1="-112" y2="-112" x1="496" />
+        <rect width="64" x="496" y="-44" height="24" />
+        <line x2="560" y1="-32" y2="-32" x1="496" />
+    </graph>
+</symbol>
